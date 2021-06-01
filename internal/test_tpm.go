@@ -5,7 +5,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/google/go-tpm-tools/simulator"
+	"github.com/ProsaicSatsuma/go-tpm-tools/simulator"
 )
 
 // Only open the TPM device once. Reopening the device causes issues on Linux.

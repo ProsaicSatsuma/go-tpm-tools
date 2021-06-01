@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	tpmpb "github.com/google/go-tpm-tools/proto"
+	tpmpb "github.com/ProsaicSatsuma/go-tpm-tools/proto"
 	"github.com/google/go-tpm/tpm2"
 	"github.com/google/go-tpm/tpmutil"
 )

@@ -16,8 +16,8 @@ import (
 	"github.com/google/go-tpm/tpm2"
 	"github.com/google/go-tpm/tpmutil"
 
-	"github.com/google/go-tpm-tools/client"
-	tpmpb "github.com/google/go-tpm-tools/proto"
+	"github.com/ProsaicSatsuma/go-tpm-tools/client"
+	tpmpb "github.com/ProsaicSatsuma/go-tpm-tools/proto"
 )
 
 // CreateImportBlob uses the provided public EK to encrypt the sensitive data.

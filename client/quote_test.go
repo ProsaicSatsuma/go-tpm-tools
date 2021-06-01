@@ -7,7 +7,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/google/go-tpm-tools/internal"
+	"github.com/ProsaicSatsuma/go-tpm-tools/internal"
 	"github.com/google/go-tpm/tpm2"
 )
 

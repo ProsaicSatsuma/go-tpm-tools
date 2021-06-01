@@ -8,9 +8,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/internal"
-	tpmpb "github.com/google/go-tpm-tools/proto"
+	"github.com/ProsaicSatsuma/go-tpm-tools/client"
+	"github.com/ProsaicSatsuma/go-tpm-tools/internal"
+	tpmpb "github.com/ProsaicSatsuma/go-tpm-tools/proto"
 	"github.com/google/go-tpm/tpm2"
 )
 

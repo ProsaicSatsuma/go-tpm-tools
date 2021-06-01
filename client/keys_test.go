@@ -8,7 +8,7 @@ import (
 	"github.com/google/go-tpm/tpm2"
 	"github.com/google/go-tpm/tpmutil"
 
-	"github.com/google/go-tpm-tools/internal"
+	"github.com/ProsaicSatsuma/go-tpm-tools/internal"
 )
 
 func TestNameMatchesPublicArea(t *testing.T) {

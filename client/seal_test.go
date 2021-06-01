@@ -9,7 +9,7 @@ import (
 	"github.com/google/go-tpm/tpm2"
 	"github.com/google/go-tpm/tpmutil"
 
-	"github.com/google/go-tpm-tools/internal"
+	"github.com/ProsaicSatsuma/go-tpm-tools/internal"
 )
 
 func TestSeal(t *testing.T) {

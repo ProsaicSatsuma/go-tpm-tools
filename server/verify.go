@@ -8,8 +8,8 @@ import (
 	"crypto/subtle"
 	"fmt"
 
-	"github.com/google/go-tpm-tools/client"
-	tpmpb "github.com/google/go-tpm-tools/proto"
+	"github.com/ProsaicSatsuma/go-tpm-tools/client"
+	tpmpb "github.com/ProsaicSatsuma/go-tpm-tools/proto"
 	"github.com/google/go-tpm/tpm2"
 )
 

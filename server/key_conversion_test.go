@@ -8,8 +8,8 @@ import (
 	"crypto/rsa"
 	"testing"
 
-	"github.com/google/go-tpm-tools/client"
-	"github.com/google/go-tpm-tools/internal"
+	"github.com/ProsaicSatsuma/go-tpm-tools/client"
+	"github.com/ProsaicSatsuma/go-tpm-tools/internal"
 	"github.com/google/go-tpm/tpm2"
 )
 
