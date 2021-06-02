@@ -1,3 +1,3 @@
 package dummy
 
-const DummyExport="export"
+const DummyExport="export_"
