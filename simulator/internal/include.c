@@ -7,7 +7,7 @@
 #define _X509_SPT_
 
 // Google sources
-#include "Clock.c"
+#include "Clock.not_c"
 #include "Entropy.c"
 #include "NVMem.c"
 #include "Run.c"
