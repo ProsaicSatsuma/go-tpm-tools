@@ -16,10 +16,10 @@
 // be included first as it instantiates all of the libraries global variables.
 #include "support/Global.not_c"
 
-#include "X509/TpmASN1.c"
-#include "X509/X509_ECC.c"
-#include "X509/X509_RSA.c"
-#include "X509/X509_spt.c"
+#include "X509/TpmASN1.not_c"
+#include "X509/X509_ECC.not_c"
+#include "X509/X509_RSA.not_c"
+#include "X509/X509_spt.not_c"
 #include "command/Asymmetric/ECC_Parameters.c"
 #include "command/Asymmetric/ECDH_KeyGen.c"
 #include "command/Asymmetric/ECDH_ZGen.c"
