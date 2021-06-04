@@ -14,7 +14,7 @@
 
 // Most of the sources can be included in any order. However, this file has to
 // be included first as it instantiates all of the libraries global variables.
-#include "support/Global.c"
+#include "support/Global.not_c"
 
 #include "X509/TpmASN1.c"
 #include "X509/X509_ECC.c"
