@@ -8,9 +8,9 @@
 
 // Google sources
 #include "Clock.not_c"
-#include "Entropy.c"
-#include "NVMem.c"
-#include "Run.c"
+#include "Entropy.not_c"
+#include "NVMem.not_c"
+#include "Run.not_c"
 
 // Most of the sources can be included in any order. However, this file has to
 // be included first as it instantiates all of the libraries global variables.
