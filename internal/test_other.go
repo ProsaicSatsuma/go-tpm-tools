@@ -5,6 +5,7 @@ package internal
 import (
 	"flag"
 	"io"
+	"io/ioutil"
 
 	"github.com/google/go-tpm/tpm2"
 )
@@ -19,4 +20,8 @@ func useRealTPM() bool {
 
 func getRealTPM() (io.ReadWriteCloser, error) {
 	return tpm2.OpenTPM(*tpmPath)
+}
+
+func getRealEventLog() ([]byte, error) {
+	return ioutil.ReadFile("/sys/kernel/security/tpm0/binary_bios_measurements")
 }

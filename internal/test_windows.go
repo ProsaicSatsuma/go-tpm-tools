@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"errors"
 	"flag"
 	"io"
 
@@ -15,4 +16,8 @@ func useRealTPM() bool {
 
 func getRealTPM() (io.ReadWriteCloser, error) {
 	return tpm2.OpenTPM()
+}
+
+func getRealEventLog() ([]byte, error) {
+	return nil, errors.New("get event log not supported on Windows")
 }
